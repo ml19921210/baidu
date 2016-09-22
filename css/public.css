@@ -1,0 +1,117 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd,form,input{
+    margin:0;
+	padding:0;
+	font-family:Arial,"微软雅黑";
+	font-size:14px;
+	list-style:none;/*清除列表标签的小圆点*/
+}
+a{
+   color:#333;
+   text-decoration:none;
+} 
+
+img{
+	border:none;
+}
+/*响应式*/
+.col-s-1{
+	width:8.33333333333%;
+	float: left;
+}
+.col-s-2{
+	width:16.66666666667%;
+	float: left;
+}
+.col-s-3{
+	width:25%;
+	float: left;
+}
+.col-s-4{
+	width:33.33333333333333%;
+	float: left;
+}
+.col-s-5{
+	width:41.666666666666667%;
+	float: left;
+}
+.col-s-6{
+	width:50%;
+	float: left;
+}
+.col-s-7{
+	width:58.33333333333%;
+	float: left;
+}
+.col-s-8{
+	width:66.6666666666667%;
+	float: left;
+}
+.col-s-9{
+	width:75%;
+	float: left;
+}
+.col-s-10{
+	width:83.33333333333%;
+	float: left;
+}
+.col-s-11{
+	width:91.6666666666667%;
+	float: left;
+}
+.col-s-12{
+	width:100%;
+	float: left;
+}
+@media screen and (min-width: 1000px){
+	.box{
+		width:1000px;
+	}
+	.col-l-1{
+		width:8.33333333333%;
+		float: left;
+	}
+	.col-l-2{
+		width:16.66666666667%;
+		float: left;
+	}
+	.col-l-3{
+		width:25%;
+		float: left;
+	}
+	.col-l-4{
+		width:33.33333333333333%;
+		float: left;
+	}
+	.col-l-5{
+		width:41.666666666666667%;
+		float: left;
+	}
+	.col-l-6{
+		width:50%;
+		float: left;
+	}
+	.col-l-7{
+		width:58.33333333333%;
+		float: left;
+	}
+	.col-l-8{
+		width:66.6666666666667%;
+		float: left;
+	}
+	.col-l-9{
+		width:75%;
+		float: left;
+	}
+	.col-l-10{
+		width:83.33333333333%;
+		float: left;
+	}
+	.col-l-11{
+		width:91.6666666666667%;
+		float: left;
+	}
+	.col-l-12{
+		width:100%;
+		float: left;
+	}
+}
